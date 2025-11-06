@@ -11,3 +11,4 @@ git add -A
 git commit -m "Reproducible snapshot for PRA review"
 git tag -a v0.1-review -m "Review snapshot"
 git push && git push --tags
+python TL_all_in_one.py --no_coherence
